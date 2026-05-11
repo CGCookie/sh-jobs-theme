@@ -1,0 +1,293 @@
+{
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#6800f0",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#2a1f42",
+					"name": "Main",
+					"slug": "main"
+				},
+				{
+					"color": "#636381",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#d0ccde",
+					"name": "Main Accent",
+					"slug": "main-accent"
+				},
+				{
+					"color": "#e4e1fe",
+					"name": "Primary Accent",
+					"slug": "primary-accent"
+				},
+				{
+					"color": "#f6f6fc",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#DADEE3",
+					"name": "Border Light",
+					"slug": "border-light"
+				},
+				{
+					"color": "#444B57",
+					"name": "Border Dark",
+					"slug": "border-dark"
+				},
+				{
+					"color": "#fff",
+					"name": "Base",
+					"slug": "base"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Mona Sans Expanded",
+							"fontStretch": "125%",
+							"fontStyle": "normal",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/Mona-Sans.woff2"
+							]
+						}
+					],
+					"fontFamily": "Mona Sans Expanded, sans-serif",
+					"name": "Mona Sans Expanded",
+					"slug": "expanded"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Mona Sans Condensed",
+							"fontStretch": "94%",
+							"fontStyle": "normal",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/Mona-Sans.woff2"
+							]
+						}
+					],
+					"fontFamily": "Mona Sans Condensed, sans-serif",
+					"name": "Mona Sans Condensed",
+					"slug": "condensed"
+				},
+				{
+					"fontFamily": "monospace",
+					"name": "Monospace",
+					"slug": "monospace"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZ1rib2Bg-4.woff2"
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZ1rib2Bg-4.woff2"
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZ1rib2Bg-4.woff2"
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2"
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2"
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2"
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZ1rib2Bg-4.woff2"
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZ1rib2Bg-4.woff2"
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZ1rib2Bg-4.woff2"
+						}
+					],
+					"fontFamily": "Inter, sans-serif",
+					"name": "Inter",
+					"slug": "inter"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Degular Text\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/DegularText-Regular.otf"
+						}
+					],
+					"fontFamily": "\"Degular Text\"",
+					"name": "Degular Text",
+					"slug": "degular-text"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-Black.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-BlackItalic.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-Bold.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-BoldItalic.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-Italic.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-Light.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-LightItalic.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-Medium.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-MediumItalic.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-Regular.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-Semibold.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-SemiboldItalic.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-Thin.otf"
+						},
+						{
+							"fontFamily": "Degular",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": "http://localhost:8882/wp-content/uploads/fonts/Degular-ThinItalic.otf"
+						}
+					],
+					"fontFamily": "Degular",
+					"name": "Degular",
+					"slug": "degular"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"letterSpacing": "-0.03em"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--degular)",
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"letterSpacing": "-0.02em"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "#6800f0"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)",
+			"fontStyle": "normal",
+			"fontWeight": "400"
+		}
+	},
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json"
+}

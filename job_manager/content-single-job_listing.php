@@ -1,0 +1,198 @@
+<?php
+/**
+ * Single job listing.
+ *
+ * This template can be overridden by copying it to yourtheme/job_manager/content-single-job_listing.php.
+ *
+ * @see         https://wpjobmanager.com/document/template-overrides/
+ * @author      Automattic
+ * @package     wp-job-manager
+ * @category    Template
+ * @since       1.0.0
+ * @version     1.37.0
+ */
+
+if (!defined("ABSPATH")) {
+  exit(); // Exit if accessed directly.
+}
+
+global $post;
+
+if (job_manager_user_can_view_job_listing($post->ID)): ?>
+	<div class="single_job_listing job_listing_container">
+		<div class="single_job_row">		
+			<div class="single_job_listing_content">
+		<?php if (
+    get_option("job_manager_hide_expired_content", 1) &&
+    "expired" === $post->post_status
+  ): ?>
+			<div class="job-manager-info"><?php _e(
+     "This listing has expired.",
+     "wp-job-manager"
+   ); ?></div>
+		<?php
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+     * single_job_listing_start hook
+     *
+     * @hooked job_listing_meta_display - 20
+     * @hooked job_listing_company_display - 30
+     */
+    /**
+     * single_job_listing_end hook
+     */
+    /**
+				 * single_job_listing_start hook
+				 *
+				 * @hooked job_listing_meta_display - 20
+				 * @hooked job_listing_company_display - 30
+				 */
+    /**
+				 * single_job_listing_end hook
+				 */
+    else: ?>
+			<div class="job_description">
+				<?php wpjm_the_job_description(); ?>
+			</div>
+		</div>
+		<div class="single_job_listing_apply">
+			<?php do_action("single_job_listing_start"); ?>
+
+			<?php do_action("single_job_listing_end"); ?>
+				<?php if (candidates_can_apply()): ?>
+						<?php get_job_manager_template("job-application.php"); ?>
+				<?php endif; ?>
+		</div>	
+		<?php endif; ?>
+		</div>
+	</div>
+<?php else: ?>
+
+	<?php get_job_manager_template_part("access-denied", "single-job_listing"); ?>
+
+<?php endif; ?>
