@@ -28,6 +28,11 @@ GitHub Theme URI: https://github.com/CGCookie/sh-jobs-theme
   display: none;
 }
 
+.wp-site-blocks {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
 
 .billboard {
   border-radius: 24px 24px 0px 0px;
